@@ -1,0 +1,157 @@
+[2020-10-01T15:18:08.500] [INFO] user - {
+  name: undefined,
+  url: '/api/student/login',
+  body: {
+    loginType: 'student',
+    email: 'admin@admin.com',
+    password: 'admin',
+    remember: true
+  }
+}
+[2020-10-01T15:18:23.843] [INFO] user - {
+  name: undefined,
+  url: '/api/student/login',
+  body: {
+    loginType: 'student',
+    email: 'admin@admin.com',
+    password: 'admin',
+    remember: true
+  }
+}
+[2020-10-01T15:18:29.982] [INFO] user - {
+  name: undefined,
+  url: '/api/teacher/login',
+  body: {
+    loginType: 'teacher',
+    email: 'admin@admin.com',
+    password: 'admin',
+    remember: true
+  }
+}
+[2020-10-01T15:21:07.953] [INFO] user - {
+  name: undefined,
+  url: '/api/student/login',
+  body: {
+    loginType: 'student',
+    email: '2@sad.com',
+    password: '123456',
+    remember: true
+  }
+}
+[2020-10-01T15:24:23.909] [INFO] user - {
+  name: undefined,
+  url: '/api/teacher/login',
+  body: {
+    loginType: 'teacher',
+    email: 'admin@admin.com',
+    password: 'admin',
+    remember: true
+  }
+}
+[2020-10-01T15:24:54.760] [INFO] user - {
+  name: undefined,
+  url: '/api/student/course/add',
+  body: { student_id: 76, course_id: 10, course_date: '2020-10-09' }
+}
+[2020-10-01T15:25:51.466] [INFO] user - {
+  name: undefined,
+  url: '/api/course/add',
+  body: { name: '布局艺术', homework: 'no', type_id: 2 }
+}
+[2020-10-01T15:27:17.456] [INFO] user - {
+  name: undefined,
+  url: '/api/manager/login',
+  body: {
+    loginType: 'manager',
+    email: 'manager12222@manager.com',
+    password: '123123',
+    remember: true
+  }
+}
+[2020-10-01T15:29:04.521] [INFO] user - {
+  name: undefined,
+  url: '/api/student/add',
+  body: {
+    name: '陈霖',
+    type_id: 2,
+    address: '红星路一段188号',
+    email: 'lin.chen@anz.com'
+  }
+}
+[2020-10-01T15:30:24.409] [INFO] user - {
+  name: undefined,
+  url: '/api/course/type/add',
+  body: { name: '项目实战' }
+}
+[2020-10-01T15:31:00.186] [INFO] user - {
+  name: undefined,
+  url: '/api/course/add',
+  body: { name: 'Marrs从入门到出家', homework: 'no', type_id: 46 }
+}
+[2020-10-01T15:32:31.190] [INFO] user - {
+  name: undefined,
+  url: '/api/student/course/add',
+  body: { student_id: 85, course_id: 48, course_date: '2020-10-01' }
+}
+[2020-10-01T15:38:38.904] [INFO] user - {
+  name: undefined,
+  url: '/api/student/login',
+  body: {
+    loginType: 'student',
+    email: 'lin.chen@anz.com',
+    password: '123',
+    remember: true
+  }
+}
+[2020-10-01T15:39:06.000] [INFO] user - {
+  name: undefined,
+  url: '/api/student/login',
+  body: {
+    loginType: 'student',
+    email: 'lin.chen@anz.com',
+    password: '123456',
+    remember: true
+  }
+}
+[2020-10-01T15:40:01.994] [INFO] user - {
+  name: undefined,
+  url: '/api/manager/login',
+  body: {
+    loginType: 'manager',
+    email: 'manager12222@manager.com',
+    password: '123',
+    remember: true
+  }
+}
+[2020-10-01T15:40:06.140] [INFO] user - {
+  name: undefined,
+  url: '/api/manager/login',
+  body: {
+    loginType: 'manager',
+    email: 'manager12222@manager.com',
+    password: '123123',
+    remember: true
+  }
+}
+[2020-10-01T15:45:06.523] [INFO] user - {
+  name: undefined,
+  url: '/api/course/type/add',
+  body: { name: '人文社科' }
+}
+[2020-10-01T16:08:40.573] [INFO] user - { name: undefined, url: '/api/course/type/add', body: { name: '123' } }
+[2020-10-01T16:08:48.188] [INFO] user - { name: undefined, url: '/api/course/type/delete', body: { id: 48 } }
+[2020-10-01T16:09:00.752] [INFO] user - {
+  name: undefined,
+  url: '/api/course/type/update',
+  body: { name: '手动测试', id: 2 }
+}
+[2020-10-01T16:38:54.865] [INFO] user - {
+  name: undefined,
+  url: '/api/manager/login',
+  body: {
+    loginType: 'manager',
+    email: 'manager12222@manager.com',
+    password: '123123',
+    remember: true
+  }
+}
