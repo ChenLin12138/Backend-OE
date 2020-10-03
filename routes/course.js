@@ -6,6 +6,7 @@ const CourseRouter = {
     name:'/course',//命名空间
     routes:[
         {methods:'get', path: '/type/list', realize: Course.getAllCourseType}, // 查询所有课程类型
+        {methods:'get', path: '/type/info', realize: Course.getCourseType}, // 查询所有课程类型
         {methods:'post',path:'/type/add',realize:Course.addCourseType}, //新增课程类型
         {methods:'post',path:'/type/update',realize:Course.updateCourseType}, //更新课程类型
         {methods:'post',path:'/type/delete',realize:Course.deleteCourseTypeById}, //根据id删除课程类型

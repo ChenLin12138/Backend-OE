@@ -15,6 +15,14 @@ const CourseService={
    getAllCourseType: async () => {
        return await CourseModel.findAllCourseType();
    },
+
+    /*
+        根据id获取课程类型
+    */
+   getCourseTypeById: async (id) =>{
+    return await CourseModel.findCourseTypeById(id);
+    },
+
     /*
         新增课程类型
     */

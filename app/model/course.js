@@ -61,6 +61,12 @@ const CourseModel={
 		return await query(_sql)
 	},
 
+	findCourseTypeById: async (id) => {
+		let inserts = [id];
+		let _sql = `select id, name from course_type where id =?`;
+		return await query(_sql,inserts)
+	},
+
 	/**
 	 * 新增所有课程类型
 	 */

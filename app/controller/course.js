@@ -30,6 +30,16 @@ const CourseConroller = {
 		}
 	},
 
+
+	getCourseType: async (ctx) => {
+		let result = await CourseService.getCourseTypeById(ctx.query.id)
+		if (result) {
+			R.success(result, ctx)
+		} else {
+			R.error(99, '系统错误', ctx)
+		}
+	},
+
 	/**
 	 * 新增课程类型
 	 */
